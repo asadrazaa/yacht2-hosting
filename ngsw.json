@@ -1,0 +1,123 @@
+{
+  "configVersion": 1,
+  "timestamp": 1695744092146,
+  "index": "https://asadrazaa.github.io/yacht2-hosting/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://asadrazaa.github.io/yacht2-hosting/favicon.ico",
+        "https://asadrazaa.github.io/yacht2-hosting/index.html",
+        "https://asadrazaa.github.io/yacht2-hosting/main.fac72feaa24d7098.js",
+        "https://asadrazaa.github.io/yacht2-hosting/manifest.webmanifest",
+        "https://asadrazaa.github.io/yacht2-hosting/polyfills.c027ad9b0dd076d9.js",
+        "https://asadrazaa.github.io/yacht2-hosting/runtime.ee9632e66e8523e7.js",
+        "https://asadrazaa.github.io/yacht2-hosting/scripts.c49df3c2bee10786.js",
+        "https://asadrazaa.github.io/yacht2-hosting/styles.5a0d96d1c631446c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-128x128.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-144x144.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-152x152.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-192x192.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-384x384.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-512x512.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-72x72.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-96x96.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/dashboard-bg-2.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/dashboard-bg.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/teal2.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/vector-2.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/vector.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/boats/harmony-3.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/home-bg.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/home.jpeg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/home.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/id.jpeg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/id2.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/login-bg.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/logo.png",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/logo.svg",
+        "https://asadrazaa.github.io/yacht2-hosting/assets/images/yacht-top.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/dashboard-bg-2.d5797e94c8d98f0e.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/home-bg.bc5c62d57486e4f2.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/home.bd53609a34818204.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/teal2.ab88078313e2b803.jpg",
+        "https://asadrazaa.github.io/yacht2-hosting/yacht-top.18dd850fc5404d18.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/dashboard-bg-2.jpg": "59e1271ca1b8e292b3a55cd88479deb7d3cabb21",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/dashboard-bg.jpg": "1116037fdfa748de0658064c4921f16f82ca834e",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/teal2.jpg": "0274f9cefea3a893cd77af199e4ff66af07468c1",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/vector-2.jpg": "b4cb27211f3c8488961f7c4d2d74cca6cd35feb6",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/admin/vector.jpg": "f21aca00ac1845c014e249686a208e7d1318d329",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/boats/harmony-3.jpg": "76f4813573c3102754be1a946375892c7f2ce0d0",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/home-bg.jpg": "c58ceafaa11449671fec35f8305069b2bcb907a1",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/home.jpeg": "0addae31a41a3d8f33edcc431313f858b92202ed",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/home.jpg": "31dccbfedee54e2e3692484bc6c384254184cd9a",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/id.jpeg": "6ba89df6140e106d831f342d0aabd1e2909b0662",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/id2.jpg": "0b52c618a13043b90a9688a08f6b419a35199b31",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/login-bg.jpg": "830c75acfdd87ebca31197434f32b1470385c72d",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/logo.png": "968f20d4645b52db6c537683d8d7c2e97fbeaf92",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/logo.svg": "e536c1a317d86980e0c791dd45776728b1afca04",
+    "https://asadrazaa.github.io/yacht2-hosting/assets/images/yacht-top.jpg": "2796fd9c497ee4499ac1643bc596318297083fd3",
+    "https://asadrazaa.github.io/yacht2-hosting/dashboard-bg-2.d5797e94c8d98f0e.jpg": "59e1271ca1b8e292b3a55cd88479deb7d3cabb21",
+    "https://asadrazaa.github.io/yacht2-hosting/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://asadrazaa.github.io/yacht2-hosting/home-bg.bc5c62d57486e4f2.jpg": "c58ceafaa11449671fec35f8305069b2bcb907a1",
+    "https://asadrazaa.github.io/yacht2-hosting/home.bd53609a34818204.jpg": "31dccbfedee54e2e3692484bc6c384254184cd9a",
+    "https://asadrazaa.github.io/yacht2-hosting/index.html": "b29d250da58a04ee27da4fd7cad3431f19498f6c",
+    "https://asadrazaa.github.io/yacht2-hosting/main.fac72feaa24d7098.js": "474acc1c444039598daf7fbfd02fa8d5f3ef1ae5",
+    "https://asadrazaa.github.io/yacht2-hosting/manifest.webmanifest": "a65ad6716f0269fbcb103d25a4dd2268eafb73d0",
+    "https://asadrazaa.github.io/yacht2-hosting/polyfills.c027ad9b0dd076d9.js": "51cfc603c6b5a001c61eb00ce44b0f3c19ae3a92",
+    "https://asadrazaa.github.io/yacht2-hosting/runtime.ee9632e66e8523e7.js": "d7a39fef04e54a840b649530422ab6d7dbb12712",
+    "https://asadrazaa.github.io/yacht2-hosting/scripts.c49df3c2bee10786.js": "6f30ded081b59d828ba23439ecc3da0637ed4067",
+    "https://asadrazaa.github.io/yacht2-hosting/styles.5a0d96d1c631446c.css": "6a57e95a2b3dcfd3cd9de9c51ad2892c7c58ec13",
+    "https://asadrazaa.github.io/yacht2-hosting/teal2.ab88078313e2b803.jpg": "0274f9cefea3a893cd77af199e4ff66af07468c1",
+    "https://asadrazaa.github.io/yacht2-hosting/yacht-top.18dd850fc5404d18.jpg": "2796fd9c497ee4499ac1643bc596318297083fd3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
