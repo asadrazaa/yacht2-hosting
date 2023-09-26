@@ -1,0 +1,9 @@
+<div class="container-fluid p-0 m-0" style="background-color: #F1FAFB !important;">
+    <div>
+        <app-header *ngIf="currentRoute !== '/'" [isWhite]="isWhite"></app-header>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+

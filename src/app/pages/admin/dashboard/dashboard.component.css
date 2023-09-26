@@ -1,0 +1,110 @@
+.dashboard-bg {
+    background: url('../../../../assets/images/admin/dashboard-bg-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.dashboard-content {
+    margin-top: -12.5rem !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: transparent !important;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+.admin-jumbotron {
+    background: url('../../../../assets/images/admin/teal2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 90%;
+    height: 28rem;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    align-items: center;
+}
+
+.dark-card .card-title {
+    background-color: #077187 !important;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.light-card .card-title {
+    border-bottom: 1px solid rgba(30,46,80,.09);
+}
+
+.item-label {
+    text-transform: uppercase!important;
+    letter-spacing: 2px!important;
+    font-size: .7rem!important;
+    color: #ecf5f7;
+}
+
+.item-stat {
+    font-size: .85rem !important;
+    margin-left: auto !important;
+    font-weight: 900;
+}
+
+.item-value {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
+.top-item:hover {
+    box-shadow: -5px 0px 0px 0px #398D9F, 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.top-item:hover h4 {
+    color: #077187 !important;
+}
+
+.text-header {
+    margin-top: 3rem;
+}
+
+@media (max-width: 991px) {
+    .text-header {
+        margin-top: 7rem !important;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 576px){
+    .item-label {
+        font-size: .5rem !important;
+        color: #ffffff  !important;
+    }
+    .item-stat {
+        font-size: .7rem !important;
+    }
+
+    .item-value {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .admin-jumbotron {
+        height: 44rem !important;
+    }
+
+    .dashboard-content {
+        margin-top: -27.5rem !important;
+    }
+}

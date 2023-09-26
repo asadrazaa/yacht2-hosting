@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg fixed-top" [ngClass]="{'navbar-inverse shadow': (isWhite)}">
+    <div class="container d-flex">
+        <a class="navbar-brand order-1" href="#">
+            <img src="assets/images/logo.svg" alt="Bootstrap" height="60">
+        </a>
+        <form class="d-flex ms-auto order-2 order-lg-3" role="search">
+          <div class="d-none d-lg-flex align-items-center pe-4">
+              <div class="dropdown">
+                  <input type="checkbox" id="dropdown">
+                  <label class="dropdown__face" for="dropdown">
+                      <!-- <i class="far fa-user"></i> -->
+                      <img class="avatar rounded-circle" alt="Image placeholder" src="assets/images/id.jpeg">
+                  </label>
+                  <ul class="dropdown__items shadow">
+                    <li class="list-item">My Profile</li>
+                    <li class="list-item">Account Settings</li>
+                    <li class="list-item">Log Out</li>
+                  </ul>
+              </div>
+              <svg>
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                  </filter>
+              </svg>
+          </div>
+      </form>
+      <button class="navbar-toggler order-3 order-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse order-4 order-lg-2" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="'/dashboard'" (click)="toggleMenu()">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="'/home'" (click)="toggleMenu()">Bookings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="'/boat-list'" (click)="toggleMenu()">Products</a>
+          </li>
+          <li class="nav-item profile-item">
+            <a class="nav-link" (click)="toggleMenu()">My Profile</a>
+          </li>
+          <li class="nav-item profile-item">
+            <a class="nav-link" (click)="toggleMenu()">Account Settings</a>
+          </li>
+          <li class="nav-item profile-item">
+            <a class="nav-link" [routerLink]="'/'" (click)="toggleMenu()">Log Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

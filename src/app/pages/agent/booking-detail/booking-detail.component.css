@@ -1,0 +1,5 @@
+.home-bg {
+    background: url('../../../../assets/images/home-bg.jpg') no-repeat;
+    background-size: cover;
+    height: 10rem;
+}

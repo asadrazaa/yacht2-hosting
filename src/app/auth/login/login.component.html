@@ -1,0 +1,29 @@
+<div>
+    <div class="row vh-100 g-0">
+        <div class="col bg-image">
+        </div>
+        <div class="col m-7 shadow ">
+            <div class="d-flex justify-content-center">
+                <img src="assets/images/logo.svg" alt="Girl in a jacket" height="100" width="140">
+                <!-- <span>YACHT</span> -->
+            </div>
+            <div class="pt-5 login-box ">
+                <h3 class="fw-bold">Login</h3>
+                <div class="mb-3 mt-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control " id="username" [(ngModel)]="UsernameInput" [ngModelOptions]="{standalone: true}" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" [(ngModel)]="PasswordInput" [ngModelOptions]="{standalone: true}" placeholder="********">
+                </div>
+                <div class="d-grid gap-2 pt-5">
+                    <button class="btn btn-primary" type="button" (click)="Submit(UsernameInput,PasswordInput)">Submit</button>
+                </div>
+                <p class="pt-3">No account? Please register <a href="#">here.</a></p>
+                <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+

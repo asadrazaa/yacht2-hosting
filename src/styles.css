@@ -1,0 +1,270 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: 'Montserrat';
+}
+
+.m-6 {
+    margin: 4rem !important;
+}
+.m-7 {
+    margin: 5rem !important;
+}
+
+.mx-6{
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+}
+.mx-7{
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
+}
+.mx-8{
+    margin-left: 8rem !important;
+    margin-right: 8rem !important;
+}
+.mx-9{
+    margin-left: 9rem !important;
+    margin-right: 9rem !important;
+}
+.mx-10{
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+}
+
+
+.pt-6{
+    padding-top: 6rem !important;
+}
+.pt-7{
+    padding-top: 7rem !important;
+}
+.pt-8{
+    padding-top: 8rem !important;
+}
+.pt-9{
+    padding-top: 9rem !important;
+}
+.pt-10{
+    padding-top: 10rem !important;
+}
+
+
+.pb-6{
+    padding-bottom: 6rem !important;
+}
+.pb-7{
+    padding-bottom: 7rem !important;
+}
+.pb-8{
+    padding-bottom: 8rem !important;
+}
+.pb-9{
+    padding-bottom: 9rem !important;
+}
+.pb-10{
+    padding-bottom: 10rem !important;
+}
+
+
+.mt-6{
+    margin-top: 6rem !important;
+}
+.mt-7{
+    margin-top: 7rem !important;
+}
+.mt-8{
+    margin-top: 8rem !important;
+}
+.mt-9{
+    margin-top: 9rem !important;
+}
+.mt-10{
+    margin-top: 10rem !important;
+}
+
+.px-6 {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+}
+.px-7 {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+.px-8 {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+.px-9 {
+    padding-right: 7rem !important;
+    padding-left: 7rem !important;
+}
+.px-10 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+}
+
+.login-box{
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+}
+
+.field-shadow{
+    box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.59);
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+.fade-in-custom {
+    animation: fade-in 0.7s ease-in 1;
+}
+
+.primary-colour{
+    background-color: #077187 !important;
+}
+
+.bold-text-colour{
+    color: #065A6C !important;
+}
+
+.secondary-colour{
+    background-color: #ffe9b9 !important;
+}
+
+.fc-light {
+    color: #398D9F !important;
+}
+
+.text-bg-up {
+    background-color: #d1f7ff !important;
+    color: #398D9F !important;
+}
+
+.text-bg-down {
+    background-color: #ffd4d4 !important;
+    color: #C16969 !important;
+}
+
+.clock-loader {
+    /* background-color: rgba(255,255,255,0.7); */
+    --clock-color: #ffe9b9;
+    --clock-width: 4rem;
+    --clock-radius: calc(var(--clock-width) / 2);
+    --clock-minute-length: calc(var(--clock-width) * 0.4);
+    --clock-hour-length: calc(var(--clock-width) * 0.2);
+    --clock-thickness: 0.2rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--clock-width);
+    height: var(--clock-width);
+    border: 3px solid var(--clock-color);
+    border-radius: 50%;
+    z-index: 1000;
+  }
+  .clock-loader::before, .clock-loader::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--clock-radius) * 0.25);
+    width: var(--clock-thickness);
+    background: var(--clock-color);
+    border-radius: 10px;
+    transform-origin: center calc(100% - calc(var(--clock-thickness) / 2));
+    animation: spin infinite linear;
+  }
+  .clock-loader::before {
+    height: var(--clock-minute-length);
+    animation-duration: 2s;
+  }
+  .clock-loader::after {
+    top: calc(var(--clock-radius) * 0.25 + var(--clock-hour-length));
+    height: var(--clock-hour-length);
+    animation-duration: 15s;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+
+.vertical-line {
+    border-right: 1px solid #a3a3a3;
+    height: 3rem;
+}
+
+.fs-7 {
+    font-size: 0.8rem !important;
+}
+.fs-8 {
+    font-size: 0.7rem !important;
+}
+.fs-9 {
+    font-size: 0.6rem !important;
+}
+.fs-10 {
+    font-size: 0.5rem !important;
+}
+
+.list-item {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(30,46,80,.09);
+}
+
+.list-item:last-child {
+    border-bottom: none;
+}
+
+.avatar {
+    width: 2.75rem;
+    height: 2.75rem;
+    object-fit: cover;
+}
+
+.avatar-lg {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+}
+
+.avatar-thumbnail {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
+
+.custom-table thead {
+    font-size: .7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    vertical-align: middle;
+}
+
+.custom-table thead tr th {
+    padding: 0.75rem 0.5rem;
+}
+
+.custom-table tbody {
+    vertical-align: middle;
+}
+
+.custom-table tbody tr:last-child {
+    border-color: transparent !important;
+}

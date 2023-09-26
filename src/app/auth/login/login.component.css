@@ -1,0 +1,8 @@
+.bg-image{
+    background-image: url("../../../assets/images/yacht-top.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
